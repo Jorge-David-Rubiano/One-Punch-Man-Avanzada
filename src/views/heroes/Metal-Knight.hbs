@@ -1,0 +1,68 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each MQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/296948.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Metal-Knight/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>El Dr. Bofoi (ボフォイ博士, Bofoi Hakase), también conocido como Metal Knight (メタルナイト, Metarunaito), es el
+                héroe profesional de Clase-S, rango 6 de la Asociación de Héroes. Ofrece muchos servicios para la
+                asociación de héroes, como patrocinios de armas y construcción de instalaciones.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Parece que tiene un ávido interés en cualquier forma de alta tecnología, como se muestra cuando envió a
+                uno de sus robots a recolectar restos o buscar cualquier cosa que pudiera ser útil en los restos de la
+                nave de los Ladrones de Materia Oscura. A pesar de ser un héroe, tiene poca compasión por los demás si
+                no le beneficia. Incluso cuando un meteorito estaba a punto de golpear Ciudad-Z, su única preocupación
+                es la fiabilidad de sus nuevos misiles. Debido a la advertencia de Drive Knight a Genos, cualquier cosa
+                sobre Bofoi sigue siendo un misterio.</p>
+
+            <h2>Poderes y Habilidades</h2>
+
+
+
+            <p> </p>
+
+            Al ser un héroe de Clase-S, se puede suponer que Bofoi es muy poderoso, aunque llegó a esa posición debido a
+            su capacidad mental y la fuerza de sus armas, en oposición a su propia fuerza física. Según Gyoro Gyoro, él
+            es uno de los cuatro héroes que podrían vencer al Ciempiés Anciano. A pesar de esto, no pudo dañar al
+            monstruo cuando luchó con su dron. Sin embargo, Phoenix Man ha notado que el alcance total del poder militar
+            y el armamento de Bofoi es desconocido, incluso para la Asociación de Héroes, por lo que temen su posible
+            traición, ya que representaría una gran amenaza.
+            </p>
+        </div>
+
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

@@ -1,0 +1,80 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each PQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/A30.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Pig-God/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Pig God (豚神, Butagami; Esp: Dios Cerdo) es el héroe profesional Clase-S, rango 10 de la Asociación de
+                Héroes.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Parece ser un glotón, ya que constantemente se lo veía comiendo durante la reunión de la Clase-S. También
+                es muy directo, o simplemente perezoso, ya que se estrelló en un edificio en lugar de rodearlo y habla
+                de manera contundente.</p>
+
+            <h2>Poderes y Habilidades</h2>
+
+            <p>
+                Tiene la capacidad de comer todo, desde ataques de energía de enemigos, hasta directamente al rival.
+Es inmune a sustancias venenosas y posee una gran resistencia.</p>
+        </div>
+
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>
+
+
+{{!-- 
+<div class = "container p-4">
+    <div class= "row">      
+        {{#each PQ}}
+        <div class = "col-md-3">                    
+            <div class = "card">
+                <div class= "card-body">
+                    <img src="/OP-images/A30.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="" alt="">
+                    <div class="card-text">
+                        <h1> {{nombre}} </h1>
+                        <p> {{ rango }} </p>
+                        <p> {{ habilidad }} </p>
+                        <p>{{ lugarResidencia }}</p>
+                        <p>{{ telefono }}</p>
+                        <a href="/heroes/Pig-God/Combates" class="btn btn-danger">COMBATES</a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>  --}}

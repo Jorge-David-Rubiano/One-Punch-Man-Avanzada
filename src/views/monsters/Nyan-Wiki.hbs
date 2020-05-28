@@ -1,0 +1,45 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each MC}}
+        <div class="col-md-4">
+            <div class="card text-center my-2" style="height: 350px;">
+
+                <div class="card-body">
+                    <img src="/OP-images/{{nombre}}.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Los astrónomos detectan un asteroide que se dirige hacia la tierra. De repente cambia su trayectoria y se dirige a Ciudad-Z. Todos los 
+                héroes de la Clase-S son llamados a lidiar con eso, pero solo Bang, Metal Knight y Genos responden.</p>
+
+            <h2>Apariencia</h2>
+
+            <p>El meteorito era una roca gigante oblonga que brillaba al entrar en la atmósfera del planeta.
+
+            </p>
+
+            <h2>Anotaciones</h2>
+
+            <p>El meteorito pudo resistir la potencia de fuego de los misiles de Metal Knight. 
+                También tomó la explosión de incineración de Genos sin daño aparente.
+                </p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

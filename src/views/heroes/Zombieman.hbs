@@ -1,0 +1,62 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each ZQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/1DC.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Zombieman/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Zombieman (ゾンビマン, Zonbiman) es el héroe profesional Clase-S, rango 8 de la Asociación de Héroes. Fue un
+                sujeto de prueba en la Casa de la Evolución.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Zombieman parece sentirse molesto por las peculiaridades de la reunión de la Asociación de Héroes,
+                observando que los héroes no parecen muy cooperativos y ocultando su molestia por el consumo continuo de
+                Pig God. Se dice que Zombieman es nihilista, posiblemente debido a que ha "muerto" varias veces, por lo
+                tanto, siempre está tranquilo. Esto es bastante irónico, ya que pese a ser un nihilista, es muy sensible
+                a la muerte de otras personas.</p>
+
+            <h2>Poderes y Habilidades</h2>
+
+
+            <p>
+
+                Al ser un héroe de Clase-S, se puede suponer que Zombieman es muy poderoso. Se afirma que las flores de
+                sangre y matanza florecen donde quiera que vaya. Sin embargo, en términos de poder destructivo y
+                capacidades físicas, se rumorea que es uno de los héroes de clase S más débiles.</p>
+        </div>
+
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>
+

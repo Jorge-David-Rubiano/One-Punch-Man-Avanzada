@@ -1,0 +1,55 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each EMPQ}}
+        <div class="col-md-4">
+            <div class="card text-center my-2">
+
+                <div class="card-body" style="height: 380px;">
+                    <img src="/OP-images/{{nombre}}.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    <h4 class="card-text">
+                        <span>Resultado: </span> {{resultado}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Emperador sin Hogar (ホームレス帝, Hōmuresu Tei) es un Kaijin de nivel Dragón y un miembro ejecutivo de la
+                Asociación de Monstruos.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Antes de convertirse en Emperador sin Hogar, fue una vez un amable y sencillo obrero que estaba ansioso
+                por trabajar en su nuevo trabajo. Ni siquiera se arrepintió de su jefe por convertirlo en un chivo
+                expiatorio por robo de empresas y arruinar su vida. Al convertirse en un ermitaño, las personas sin
+                hogar siempre tenían una visión suave de la vida y amaban mirar hacia las nubes mientras frecuentaban
+                los terrenos del parque. Encontró que los caminos enclaustrados del hombre y las obras del hombre
+                palidecían en comparación con la inmensa enormidad de la madre tierra, al ver su verdadero hogar por lo
+                que es. Al ser más inclusivo que cualquier cosa construida y acosada por la sociedad moderna, encuentra
+                una revelación agradable en su nueva situación.</p>
+
+            <h2>Anotaciones</h2>
+
+            <p>Hace aproximadamente un mes, durante su crisis existencial, 
+                dijo que una persona enigmática divina se acercó al hombre sin hogar, a quien afirma ser 
+                "Dios", que le dio su increíble poder de invocar esferas de energía similares a los explosivos 
+                soles en miniatura que causan una devastación masiva. Después de una breve conversación con "Dios" 
+                cuando recibió su regalo, tomó un nuevo nombre y terminó deseando la erradicación de toda la humanidad de la Tierra para cumplir su "tarea divina".</p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

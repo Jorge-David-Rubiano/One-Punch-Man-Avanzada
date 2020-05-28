@@ -1,0 +1,57 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each DC}}
+        <div class="col-md-4">
+            <div class="card text-center my-2">
+
+                <div class="card-body" style="height: 450px;">
+                    <img src="/OP-images/{{nombre}}.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    <h4 class="card-text">
+                        <span>Resultado: </span> {{resultado}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Nyan (ニャーン, Nyān) es un Kaijin de nivel Dragón y un miembro ejecutivo de la Asociación de Monstruos.
+                Nyan era un gato doméstico habitual, cuya dueña a menudo lo forzaba a un amor no deseado a través de
+                besos y abrazos. El gato más tarde se convirtió en un monstruo inteligente capaz de hablar y adquirió
+                inteligencia humana en algún momento debido a su tendencia extremadamente sádica de matar las plagas
+                domésticas y dejó a su dueña, convirtiéndose en miembro de la Asociación de Monstruos.
+            </p>
+
+            <h2>Personalidad</h2>
+
+            <p>Nyan, debido a que es un miembro ejecutivo de la Asociación de Monstruos y un monstruo de nivel Dragón,
+                es muy arrogante y confía en sus habilidades, como se muestra en su intento de atacar a Saitama, incluso
+                después de presenciar la derrota de Overgrown Rover con un solo golpe. </p>
+
+            <h2>Poder y Habilidades</h2>
+
+            <p>Nyan es un kaijin de nivel Dragón y miembro ejecutivo de la Asociación de Monstruos. Se demostró que era
+                lo suficientemente fuerte como para someter a los prisioneros y oficiales de la Prisión Smelly Lid. sin
+                dificultades.
+
+                Su fuerza se ve respaldada por el hecho de que él era el otro único kaijin de nivel Dragón en la
+                Asociación de Monstruos además de su compañero ejecutivo Gouketsu que tenía la tarea de reclutar nuevos
+                miembros durante la incursión inicial de monstruos. Ataca con sus afiladas garras y puede herir
+                fácilmente a los héroes de Clase-S.</p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

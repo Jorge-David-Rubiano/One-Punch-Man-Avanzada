@@ -1,0 +1,71 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each CQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/2F4.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Child-Emperor/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Kid Emperor (童 帝, Dōtei; Esp: Chico Emperador) es el héroe profesional Clase-S, rango 5 de la Asociación
+                de Héroes. Hasta ahora, él es el héroe más joven de la Asociación de Héroes. Y tiene su propio
+                laboratorio en Ciudad-Y.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>A pesar de su corta edad, Kid Emperor es un genio, tiene una mente muy analítica y es capaz de observar
+                la situación y formular planes de una manera calmada y organizada. El Chico Emperador cree firmemente en
+                la educación. Cuando fue convocado a una reunión de Clase-S, todavía menciona las tareas de su escuela.
+                A pesar de su inteligencia intelectual, no le gusta que lo llamen infantil y se molesta fácilmente aun
+                cuando lo es. Se demuestra que posee cierta parcialidad ya que no confía en Genos debido a que es un
+                recién llegado y vive con Saitama en Ciudad-Z, que es donde se encuentra la Asociación de Monstruos, ya
+                que sospecha que Genos es un traidor en la Asociación de Héroes.</h2>
+
+            <p>Siendo el héroe mejor clasificado de la Asociación de Héroes, se puede suponer que Blast es un héroe de
+                Clase-S muy poderoso. Fubuki menciona que Blast es "el que está en la cima de todos los héroes" durante
+                su
+                conversación con Saitama en su departamento, poniendo a Blast junto a King en términos de poder[9]. Sin
+                embargo, como King se revela que sólo es un humano común, la fuerza de Blast es desconocida aún. Sitch
+                también menciona que Blast solo se presentaría si la humanidad está en peligro y que es lo
+                suficientemente
+                valioso como para recibir un trato especial sobre los otros héroes.
+
+
+            <h2>Poderes y Habilidades</h2>
+            <p>
+                Al ser un héroe de Clase-S de alto rango, se puede suponer que Kid Emperor es muy poderoso. Sin embargo,
+                debido a su edad y uso de maquinaria, es probable que su alto rango en la Clase-S se deba principalmente
+                a su capacidad mental, como Metal Knight, en lugar de a su fuerza física.</p>
+        </div>
+
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

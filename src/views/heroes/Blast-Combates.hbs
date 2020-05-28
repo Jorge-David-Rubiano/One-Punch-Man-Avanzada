@@ -1,0 +1,61 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each BC}}
+        <div class="col-md-4">
+            <div class="card text-center my-2">
+
+                <div class="card-body" style="height: 450px;">
+                    <img src="/OP-images/{{nombre}}.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    <h4 class="card-text">
+                        <span>Resultado: </span> {{resultado}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>El Ciempiés Anciano (ムカデ長老, Mukade Chōrō; Viz: Centichoro) era un Kaijin de nivel dragón y miembro
+                ejecutivo de la Asociación de Monstruos</p>
+
+            <h2>Personalidad</h2>
+
+            <p>A diferencia de Ciempiés Junior y Ciempiés Mayor es mucho más cauteloso con sus oponentes, esquivando un
+                ataque y persiguiendo su verdadero objetivo de inmediato.
+
+                Debido a casi morir a manos de Blast dos años antes, el Ciempiés Anciano guarda rencor contra el héroe y
+                por lo tanto tomaría cualquier posibilidad de matarlo, ya que de inmediato abandonó su pelea con Bang,
+                Bomb y Genos cuando King anunció que Blast estaba cerca. .
+
+                Es posible que debido a que fue derrotado por Blast, se volvió menos arrogante y más cauteloso.</p>
+
+            <h2>Poder y Habilidades</h2>
+
+            <p>Ciempiés Anciano es un miembro ejecutivo de la Asociación de Monstruos y uno de los seres más misteriosos
+                de la serie. Su tamaño masivo junto con su velocidad y potencia lo convierten en un monstruo
+                extremadamente poderoso. Según Gyoro Gyoro, solo hay cuatro héroes de la Asociación de Héroes capaces de
+                derrotar al Ciempiés Anciano: Tatsumaki, Metal Knight, King (sin saber su verdadera fuerza) y Blast.
+                Tanto Phoenix Man como la Asociación de Héroes comparan al Ciempiés Anciano con un desastre natural
+                catastrófico. Su poder se demuestra cuando fue capaz de manejar fácilmente a los héroes de la Clase-S:
+                ​​Genos y Bang, junto con Bomb (que es sin dudas más fuerte que Bang) con Phoenix Man afirmando que el
+                único resultado de dicha pelea seria la matanza completa de los héroes. Esta evaluación casi se hizo
+                realidad si no fuera por la intervención de King y Saitama.</p>
+        </div>
+
+        
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

@@ -1,0 +1,76 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each SQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/A36.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Silver-Fang/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Bang (バ ン グ, Bangu), también conocido como Silver Fang, (シルバーファング, Shirubā Fangu), es el héroe
+                profesional de Clase-S, rango 3 de la Asociación de Héroes, reconocido como uno de los héroes más
+                poderosos. Actualmente se encuentra asentado en Ciudad-Z. Bang es también uno de los pocos que realmente
+                reconoce el poder de Saitama y es parte del Grupo Saitama. Su hermano Bomb y él son los dos más grandes
+                maestros del mundo de las artes marciales.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Bang tiene una personalidad seria. Actúa con calma y no parece tener miedo ante la perspectiva de detener
+                un meteoro de desastre de nivel dragón. A diferencia de la mayoría de los otros héroes de la serie, Bang
+                prefiere ser llamado por su nombre en lugar de su alias.
+
+                Bang también está bien fundamentado en la ética del heroísmo; él acusa a los otros héroes de la Clase S
+                de ser desalmados por olvidar el desastre en Ciudad-Z y atender sus propios problemas en su lugar.
+                Además, cuando presencio a Tanktop Black Hole acusando a Saitama de la miseria de los civiles, Bang
+                observa desde lejos con decepción, pero sin intervenir, señalando que los héroes normalmente tendrán que
+                lidiar con la falta de apreciación de sus acciones y asumir la responsabilidad. Más tarde, cuando su
+                discípulo Charanko se enfrenta a Saitama elogiando la habilidad y el rango de héroe de su maestro de
+                artes marciales, Bang advierte airadamente a su discípulo de que no debe avergonzarlo, e incluso afirma
+                abiertamente que Saitama es mucho más fuerte que él.
+            </p>
+
+            <h2>Poderes y Habilidades</h2>
+
+            <p>Siendo el tercer héroe de la Clase-S, Bang es uno de los héroes más poderosos de la asociación. Él es un
+                maestro de artes marciales altamente competente, habiendo enseñado el Puño de Agua Rompedor de Piedras a
+                su antiguo discípulo Garou, quien también es increíblemente poderoso. Incluso después del aumento de
+                poder de Garou, que varios Héroes de la Clase-S no podían soportar, Bang todavía podía lastimar
+                gravemente a Garou, mientras se mantenía al margen. El mismo Garou ha declarado que los seres de nivel
+                Demonio como Bug God y Royal Ripper no son nada en comparación con su antiguo maestro. Incluso es capaz
+                de matar a múltiples Kaijin de nivel de Dragón con facilidad, algo que solo unos pocos Héroes Clase-S y
+                Saitama pueden lograr. Se le conoce como un ídolo de las artes marciales, casi como un dios y, por lo
+                tanto, uno de los artistas marciales más hábiles y poderosos del mundo, a pesar de que ya ha pasado su
+                mejor momento. La combinación de Bang del inmenso poder físico y la vasta destreza de las artes
+                marciales lo convierten en uno de los luchadores de rango cercano más poderosos de la Asociación de
+                Héroes.</p>
+        </div>
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

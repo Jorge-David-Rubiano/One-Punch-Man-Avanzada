@@ -1,0 +1,49 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each ENCQ}}
+        <div class="col-md-4">
+            <div class="card text-center my-2">
+
+                <div class="card-body" style="height: 380px;">
+                    <img src="/OP-images/encias.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}},
+                    </h4>
+                    <h4 class="card-text">
+                        <span>Resultado: </span> {{resultado}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Encías (ハグキ, Haguki) es un Kaijin de nivel Dragón y un miembro ejecutivo de la Asociación de Monstruos.
+                Encías se come a algunos monstruos antes de la batalla contra la Asociación de Héroes. Encías y otros
+                monstruos más son llamados por Gyoro Gyoro para una reunión.
+            </p>
+
+            <h2>Personalidad</h2>
+
+            <p>Encías parece ser incapaz de hablar. Cuando se lo llama a una reunión, parece ser lo suficientemente
+                inteligente como para entender el habla. Sin embargo, es increíblemente glotón e impulsado por el deseo
+                de consumir.</p>
+
+            <h2>Poder y Habilidades</h2>
+
+            <p>Como miembro de alto rango y Kaijin de nivel Dragón de la Asociación de Monstruos, Encías es un ser
+                extremadamente poderoso.</p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

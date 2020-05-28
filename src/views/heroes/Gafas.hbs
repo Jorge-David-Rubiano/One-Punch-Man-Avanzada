@@ -1,0 +1,68 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each GF}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/img/Gafas.png" style="padding: 0; margin:0; height:250px;" class="card-img-top p-0 m-0"
+                        alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Gafas/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Gafas (メガネ, Megane) es un héroe profesional de la Clase-B, rango 20 de la Asociación de Héroes.
+                Gafas se ve con Stinger, Wild Horn, Chain'n'toad, Smile Man y otros héroes como parte del equipo
+                dirigido por Death Gatling para emboscar a un herido Garou.
+
+                Durante la batalla, él apoya al grupo reabasteciendo las flechas de Shooter, pero evita atacar a Garou
+                directamente. Cuando Garou intenta golpearle de todos modos, Gafas arroja piedras a su cara como una
+                distracción y lo sigue con un puñetazo rápido en la cara.
+            </p>
+
+            <h2>Personalidad</h2>
+
+            <p>Originalmente quería convertirse en un héroe y por ende Gafas entrenó duro para convertirse en uno. Sin
+                embargo, comenzó a perder la confianza en sí mismo después de formar parte del Grupo Fubuki, creyendo
+                que él y cualquier otra persona promedio tienen límites que les impiden seguirle el paso a las personas
+                con talentos naturales.</p>
+
+            <h2>Poderes y Habilidades</h2>
+
+
+            <p>
+                Gafas es uno de los héroes de Clase-B de mayor rango, y Garou notó su habilidad en el combate cuerpo a
+                cuerpo. En particular, fue el único miembro del Grupo Fubuki que evitó el segundo ataque del Ventilador
+                Demoníaco. Entre otros héroes, Gafas fue reclutado por Death Gatling para capturar a Garou.
+                Ametralladora de la Muerte señala a los héroes como élites y evalúa sus capacidades y experiencias para
+                sobrevivir a la crisis de vida o muerte.
+            </p>
+        </div>
+
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

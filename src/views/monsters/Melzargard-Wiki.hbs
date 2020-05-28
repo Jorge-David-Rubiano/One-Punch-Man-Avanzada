@@ -1,0 +1,49 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each MELQ}}
+        <div class="col-md-4">
+            <div class="card text-center my-2" style="height: 350px;">
+
+                <div class="card-body">
+                    <img src="/OP-images/{{nombre}}.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p> Melzargard (メルザルガルド, Meruzarugarudo) fue un alien que pertenecía a los Ladrones de Materia Oscura y miembro de la Fuerza de Élite de Lord Boros que atacaron Ciudad-A. Fue el único alien que pisó las ruinas de la devastada ciudad, así como el único que se enfrento a los héroes Clases-S y a Iaian.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Cada cabeza posee un patrón diferente de personalidad y habla.
+
+Una cabeza habla solo en un lenguaje quebrantado y simplificado.
+Otro elogia repetidamente a los otros jefes, calificando cada sugerencia de otros jefes como "Eso está bien".
+Una cabeza es analítica y observadora de sus alrededores y de las criaturas dentro de ella.
+Una de las cabezas es violenta y sugiere constantemente matar cualquier cosa que se oponga.
+El último jefe está de alguna manera a cargo de los otros, tomando medidas basadas en las sugerencias de los otros jefes.
+
+            </p>
+
+            <h2>Anotaciones</h2>
+
+            <p>Debido a su estatus como amenaza de nivel Dragón y al hecho de que 4 héroes de Clase-S y el segundo mejor de la Clase-A, Iaian lo derrotaran, Melzargard era un ser muy poderoso. Sin embargo, él mismo admite que los héroes eran bastante persistentes y que no pudo terminar fácilmente los 4 héroes de la Clase-S.
+                </p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

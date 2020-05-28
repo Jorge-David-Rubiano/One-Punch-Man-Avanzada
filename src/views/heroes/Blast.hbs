@@ -1,0 +1,74 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each BQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/57F.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Blast/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Blast (ブラスト, Burasuto) es el héroe profesional Clase-S, rango 1 de la Asociación de Héroes. Se desconoce
+                su paradero actual, y solo unos pocos miembros selectos del personal de la Asociación de Héroes tienen
+                los medios para comunicarse con él.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Blast tiene la tendencia de no presentarse a las reuniones de la Asociación de Héroes. Al igual que
+                Saitama, Blast considera que su trabajo de héroe es un hobby. También parece tener tendencias
+                independientes, aconsejando a Tatsumaki que use sus propios poderes para defenderse en lugar de esperar
+                que otros la salven[4], y solo aparece en sus propios términos (en su caso, según Sitch, cuando la
+                humanidad esté en peligro). El ataque de Blast en la aldea ninja también indica que no muestra
+                misericordia hacia los humanos a quienes ve como malvados, similar a Amai Mask.</p>            
+                
+            <h2>Poderes y Habilidades</h2>
+
+            <p>Siendo el héroe mejor clasificado de la Asociación de Héroes, se puede suponer que Blast es un héroe de
+                Clase-S muy poderoso. Fubuki menciona que Blast es "el que está en la cima de todos los héroes" durante su
+                conversación con Saitama en su departamento, poniendo a Blast junto a King en términos de poder[9]. Sin
+                embargo, como King se revela que sólo es un humano común, la fuerza de Blast es desconocida aún. Sitch
+                también menciona que Blast solo se presentaría si la humanidad está en peligro y que es lo suficientemente
+                valioso como para recibir un trato especial sobre los otros héroes.
+
+                <p> </p>
+
+                En el databook, Fubuki especula que Blast es más fuerte que King, puede disparar rayos láser de sus ojos y
+                gobierna sobre poderes psíquicos y tiene la capacidad de comandar billones de robots. Ella presume que él
+                podría vencer a toda la Clase-S al mismo tiempo.
+
+                Blast también derrotó al Líder de la Aldea Ninja, que es considerado como el ninja más poderoso que haya
+                existido y declarado capaz de derrotar a Flashy Flash, Sonic Velocidad del Sonido y toda la Fiesta Ninja
+                Celestial a la vez como si estuviera tratando con un niño. La derrota del líder a manos de Blast fue tan
+                severa que lo puso en coma durante 15 años.</p>
+        </div>
+
+        
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

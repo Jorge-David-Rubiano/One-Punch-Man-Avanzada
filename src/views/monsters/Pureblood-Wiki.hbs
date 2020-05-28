@@ -1,0 +1,39 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each PUREQ}}
+        <div class="col-md-4">
+            <div class="card text-center my-2" style="height: 350px;">
+
+                <div class="card-body">
+                    <img src="/OP-images/{{nombre}}.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Pureblood es descendiente directo de un linaje muy antiguo de vampiros. Suele menospreciar a los falsos monstruos, los cuales le temen y odian, por lo que 
+                buscan alguien que sea capaz de matarlo, afirma que es el monstruo natural más fuerte de la tierra.</p>
+
+            <h2>Anotaciones</h2>
+
+            <p> Es un monstruo muy poderoso, una amenaza nivel demonio. Trabaja junto a la asociación de monstruos para acabar con la asociación de héroes, 
+                después de conseguir ese objetivo piensa acabar con todos los falsos monstruos, incluyendo a Orochi.
+                </p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

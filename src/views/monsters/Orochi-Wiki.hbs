@@ -1,0 +1,45 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each OROQ}}
+        <div class="col-md-4">
+            <div class="card text-center my-2" style="height: 350px;">
+
+                <div class="card-body">
+                    <img src="/OP-images/{{nombre}}.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Orochi (オロチ, Orochi), también llamado como Lord Orochi (オロチ様, Orochi-sama), es un Kaijin líder y miembro de la Asociación de Monstruos. Es uno de los principales
+                 antagonista de los arcos de la Incursión de Monstruos, Súper Lucha y Asociación de Monstruos. </p>
+
+            <h2>Personalidad</h2>
+
+            <p>Orochi tiene un comportamiento serio. Si bien es un monstruo, Orochi no mata directamente a los humanos si captan su interés como Gouketsu. Esto se muestra cuando, en lugar de acabar con el artista marcial después de derrotarlo, capturó al primer
+                 Campeón del Torneo de Súper Lucha y le ofreció mayor poder como monstruo a cambio de cooperación. 
+                </p>
+
+                <h2>Anotaciones</h2>
+
+            <p>Si bien no se han visto las profundidades de la fuerza de Orochi, Orochi ha demostrado una fuerza física increíble, como lo demuestra cuando su cuerno atravesó uno de los robots de Bofoi mientras sus brazos estaban levantados en defensa, atravesando todo su cuerpo con aparente facilidad. Dado el tono misterioso en el que Bofoi habló al describir los eventos, esto no es una hazaña menor. Era capaz de vencer a Gouketsu humano en combate, e incluso después de que Gouketsu se convirtiera en un monstruo, consideraba a Orochi como su superior. Orochi fue capaz de contener casualmente a 
+                Garou en sus manos y forzar su camino más allá de la guardia de Garou con fuerza pura.
+                </p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

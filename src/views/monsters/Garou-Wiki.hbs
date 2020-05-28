@@ -1,0 +1,49 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each GAQ}}
+        <div class="col-md-4">
+            <div class="card text-center my-2" style="height: 350px;">
+
+                <div class="card-body">
+                    <img src="/OP-images/{{nombre}}.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <h4 class="card-text">
+                        <span>Nivel de amenaza: </span> {{nivelAmenaza}}
+                    </h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Garou (ガロウ, Garō) es un ex-discípulo de Bang, ya que fue expulsado de su dōjō por una pelea que él provocó. Es uno de los personajes más fuertes de la serie y 
+                juega un importante papel como el villano principal del Arco del Cazador de Héroes.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Garou es presentado como un personaje malvado con odio hacia los héroes y tiene una caracterización segura y vengativa. Odia ser insultado y atacará a cualquiera que lo ofenda. Él piensa muy bien de sí mismo y utiliza esa afirmación para amenazar a personal de alto rango como héroes y Sitch. 
+                También atacará a los héroes de bajo rango y al personal de la Asociación de Héroes si los encuentra.
+
+            </p>
+
+            <h2>Anotaciones</h2>
+
+            <p>Desde pequeño admiraba a los villanos de un programa de televisión.
+Nunca le pareció justo que los villanos prepararen un 
+complejo plan, para que en el último momento el héroe dañara sus planes.Murata hace referencia a la 
+espalda de Bruce Lee cuando dibuja la parte posterior de Garou, llena de músculos.
+
+                </p>
+        </div>
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

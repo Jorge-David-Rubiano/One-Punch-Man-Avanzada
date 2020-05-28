@@ -1,0 +1,62 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each KQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/981.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/King/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>King (キング, Kingu; Esp: Rey) es el héroe profesional Clase-S, rango 7 de la Asociación de Héroes. En
+                público, a King se le conoce como "El hombre más fuerte de la Tierra" (地上最強の男, Chijō saikyō no otoko).
+                King también es una de las pocas personas conscientes de la verdadera magnitud del poder de Saitama y es
+                parte del Grupo Saitama.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>King parece extremadamente calmado en situaciones amenazantes, así como en poner un aura extremadamente
+                amenazante. Es muy respetado entre el público y otros héroes, incluidos los que tienen un rango más alto
+                como Tatsumaki.</p>
+
+            <h2>Poderes y Habilidades</h2>
+
+
+            <p>
+
+                A pesar de no ser el héroe de más alto rango de la Asociación de Héroes, se lo considera el hombre más
+                poderoso de la Tierra, y es debido a esta fuerza que recibe elogios y respeto de otros héroes. Su fuerza
+                es tan temida que los criminales y los Kaijins a menudo se rinden antes de tener que luchar contra él.
+            </p>
+        </div>
+
+
+        {{else}}
+            
+        {{/each}}
+
+    </div>
+</div>

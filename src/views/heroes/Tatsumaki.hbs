@@ -1,0 +1,95 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each TQ}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/OP-images/195.jpg" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Tatsumaki/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Tatsumaki (タツマキ, Tatsumaki), también conocida como Tornado del Terror (戦慄のタツマキ, Senritsu no Tatsumaki),
+                es la heroína profesional de la Clase-S, rango 2 de la Asociación de Héroes, una Esper, y la hermana
+                mayor de Fubuki.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Tatsumaki tiene una personalidad bastante descarada, malhumorada, exaltada e impaciente. Es irrespetuosa
+                con la mayoría de las personas, especialmente con las que considera incompetentes. Es completamente
+                intolerante con aquellos que son impertinentes, como se muestra cuando estrello a Genos a un gran
+                escombro por tomar represalias contra su abuso verbal en contra de Saitama. A Tatsumaki le disgusta
+                especialmente que se la ignoren o que la llamen "Enana" y "Niña".
+
+                A pesar de su personalidad arrogante, se siente obligada a derrotar a los monstruos y considera que su
+                trabajo como héroe como un deber, aceptando cualquiera de las solicitudes de la Asociación de Héroes
+                para derrotar a los Kaijins. Debido al hecho de que ella se aburrirá cuando no esta luchando contra
+                monstruos, ella los persigue en su tiempo libre. Ella tiene un poco de lado suave hacia su hermana
+                pequeña, Fubuki, pero también es muy sobre protectora y controla a ella.</p>
+
+            <h2>Poder y Habilidades</h2>
+
+            <p>Siendo el segundo héroe clasificado de la Clase-S, Tatsumaki es fenomenalmente poderosa. Es una de los
+                héroes más poderosos y la esper más poderosa viva.
+
+                Fubuki la describe como un monstruo muy parecido a Sweet Mask, quien él mismo elige no avanzar de Clase
+                A y S para no permitir que los débiles se alineen. Ella le dijo a Garou que si luchaba contra ella en su
+                forma pre-monstruo perdería instantáneamente. Incluso después de haber presenciado la exhibición de
+                poder de Saitama en su lucha, Fubuki estaba convencida de que no estaba ni cerca de su hermana mayor en
+                términos de fuerza y ​​capacidad de combate. Sin embargo, cuando los dos (Saitama y Tatsumaki) lucharon
+                entre sí, su punto de vista cambio. La Asociación de Héroes cree que si las traicionara no podrían
+                detenerla. Sin embargo, mientras Garou luchaba contra Tatsumaki, comentó que ella no era mucho mejor que
+                Fubuki, lo que implica que Tatsumaki estando debilitada es tan poderosa como su hermana pequeña. Como su
+                estado físico y esper sugiere, es seguro asumir que es muy débil físicamente.</p>
+        </div>
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>
+
+
+
+
+{{!-- <img src="/OP-images/195.jpg">
+<a href="/heroes/Tatsumaki/Combates" class="btn btn-danger">COMBATES</a>
+<div class = "container p-4">
+    <div class= "row">
+        {{#each TQ}}
+        <div class = "col-md-3">
+            <div class = "card text-center">
+                <div class= "card-body">
+                    <h1> {{nombre}} </h1>
+                    <p> {{ rango }} </p>
+                    <p> {{ habilidad }} </p>
+                    <p>{{ lugarResidencia }}</p>
+                    <p>{{ telefono }}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div> --}}

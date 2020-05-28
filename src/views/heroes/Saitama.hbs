@@ -1,0 +1,66 @@
+<div class="container p-4">
+    <div class="row">
+
+        {{#each SA}}
+        <div class="col-md-4 mr-auto">
+            <div class="card text-center my-0" style="height: 500px;">
+
+                <div class="card-body ">
+                    <img src="/img/saitama1.png" style="padding: 0; margin:0; height:250px;"
+                        class="card-img-top p-0 m-0" alt="">
+                    <h2 class="card-title text-uppercase">
+                        {{nombre}}
+                    </h2>
+                    <div class="card-text text-left pl-3">
+                        <h5 class="">
+                            <span>Clase: </span> {{clase}}
+                        </h5>
+
+                        <h5>
+                            <span>Rango: </span> {{rango}}
+                        </h5>
+
+                        <p><span>habilidad: </span> {{habilidad}}</p>
+                        <p><span>Ciudad: </span> {{lugarResidencia}}</p>
+                        <p> <span>telefono: </span>{{telefono}}</p>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-danger btn-block p-2 mt-0 text-white" href="/heroes/Blast/Combates">COMBATES</a>
+        </div>
+
+        <div class="col-md-8 fondo">
+            <h2>Historia</h2>
+            <p>Saitama (サイタマ, Saitama) es el protagonista principal de One Punch-Man y el héroe más poderoso. Debido a
+                su condición sobrehumana, Saitama se enfrenta a una crisis existencial, ya que ahora es demasiado
+                poderoso siendo capaz de derrotar a sus oponentes de un solo golpe, por lo que sus batallas las
+                encuentra aburridas y sin emoción.Se ha registrado en la "Asociación de Héroes", donde se le da el
+                nombre de Calvo con Capa (ハゲマント, Hagemanto), él comenzó en la Clase-C, hizo un gran salto como un héroe
+                de Clase-B. Actualmente es un héroe de Clase-A y ostenta el rango 39. Tiene la tarea de defender
+                Ciudad-Z contra los Kaijin.</p>
+
+            <h2>Personalidad</h2>
+
+            <p>Saitama es una persona indiferente. Incluso los enemigos más poderosos no le plantean ningún desafío, por
+                lo que no toma en serio el trabajo de su héroe y anhela un oponente que pueda proporcionarle un desafío.
+                La falta de tales oponentes lo ha llevado a sufrir una crisis existencial autoimpuesta, y afirma que su
+                capacidad para sentir todas y cada una de las emociones ha disminuido considerablemente. La combinación
+                de su actitud, su fuerza inconmensurable y su apariencia "poco impresionante" a menudo hace que sus
+                batallas se vuelvan anti-climáticas. Saitama generalmente permitirá que sus oponentes alardeen sobre sus
+                motivos y entren en sus formas más fuertes, antes de eliminarlos con un golpe.</p>
+
+            <h2>Poderes y Habilidades</h2>
+
+            <p>El origen de la inmensa fuerza de Saitama es misterioso y poco claro. Aunque le dice a todos que obtuvo
+                su increíble poder a través del mero entrenamiento físico, nadie lo cree en absoluto. Según Saitama,
+                después de un año y medio de 100 flexiones diarias, abdominales y sentadillas, más 10 km diarios de
+                carrera, había alcanzado un cierto nivel de fuerza sobrehumana.</p>
+        </div>
+
+
+        {{else}}
+
+        {{/each}}
+
+    </div>
+</div>

@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;  
+  background-image: url(/img/text1.png);    
+}
+br{
+color: white;
+}
+.card1{
+display: none;
+}
+.card{
+/* border: .5px solid black;  */
+border-bottom: none;
+transition: .4s all;
+}
+.card-body{
+padding: 0px 0px 20px 0px;
+overflow: hidden;
+}
+.card:hover{
+transform: rotateY(-10deg);  
+}
+span{
+color: crimson;
+}
+.fondo{
+background: rgba(0,0,0,.6);
+color: white;
+}
+.fondo1{  
+color: white;
+text-align: center;
+transition: .4s all;
+}
+.fondo1:hover{  
+transform: rotateY(-11deg);
+}
+.fondo2{
+background: blanchedalmond;
+}
+.row a{
+list-style: none;
+text-decoration: none;
+color: beige;
+
+}
+.navbar1{
+background: none;  
+margin-bottom: 0px;
+}
+.navbar1 .as {
+color: white;
+margin-top: 20px;
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.contenedor{
+position: relative;  
+}
+.contenedor nav a {
+position: relative;
+}
+.fondo2 img:hover {
+opacity: .7;
+}
+.fondo3 {
+background-color: black;
+color: yellow;
+}
+.text li{
+  list-style: none;
+  text-align: center;
+}
+.text li a {
+  text-decoration: underline;
+}
+.text li:hover a {
+  text-decoration: white;  
+}
